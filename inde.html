@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rezet.css">
+    <link rel="stylesheet" href="login.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>login</title>
+</head>
+
+<body>
+    <section>
+    <div class="login">
+        <form method="post" action="/api/login">
+            <div class="h">
+                <h2 class="stud_log">Student Login</h1>
+                    <p class="accs">Access your student account</p>
+            </div>
+            <div class="form">
+                <label>Email or Student ID</label>
+
+                <input class="em" type="text" name="email" class="em" placeholder="Enter your email or student ID"
+                    required />
+            </div>
+            <div class="passw">
+                <label>Password</label>
+
+                <input class="pass" type="password" name="password" placeholder="Enter your password" required />
+            </div>
+            <div class="ch">
+                <input id="checkbox" type="checkbox" name="remember"> <label for="checkbox"> Remember me </label> <a class=" forg" href="#">Forgot password?</a>
+            </div>
+            <div class="but">
+                <button>Log In</button>
+            </div>
+            <div class="or">
+                <span class="line"></span><span>OR</span><span class="line"></span>
+            </div>
+            <div class="images">
+                <a href="https://omsk.dom.ru/landing/stabilnyj-internet?utm_source=yandex&utm_medium=cpc&utm_content=text_4%7Csearch%7Cnone%7Cpremium&utm_term=WiFi%20интернет&utm_campaign=b2c%20%7C%201rub%20%7C%20internet%20%7C%20omsk%20%7C%20search&calltouch_tm=yd_c:105227382_gb:5381941736_ad:15682857581_ph:49566181370_st:search_pt:premium_p:2_s:none_dt:desktop_reg:66_ret:49566181370_apt:none&utm_a=ertelecom!domru!January_B2C!ya!sr!tex!text!!!__ggucU&yclid=16994884912856956927"><img src="bx-wifi-2.svg"></a>
+                <a href="https://react.dev/"><img src="bxl-react.svg"></a>
+                <a href="https://www.spotify.com/int/why-not-available/"><img src="bxl-spotify.svg"></a>
+            </div>
+            <div class="reg">
+            <p>Don't have an account? <a href="register.html">Register</a></p>
+            </div>
+        </form>
+    </div>
+    </section>
+</body>
+
+</html>
